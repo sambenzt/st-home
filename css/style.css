@@ -1,0 +1,291 @@
+/*config ppal*/
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0%;
+}
+
+i {
+    color: white;
+}
+
+
+/*GENERALES*/
+body {
+    background-color: black;
+    font-family: IBM Plex Sans Arabic;
+}
+
+.contenedor-ppal {
+    max-width: 1180px;
+    margin: 0 auto;
+    /*centra al contnedor*/
+}
+
+/*logo*/
+header .logo {
+    border-radius: 50%;
+    width: 10%;
+    border: 3px solid black;
+}
+
+
+/*HEADER*/
+.encabezado {
+    background-color: rgb(44, 7, 53);
+}
+
+.computer {
+    display: none;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.phone-header a:hover{
+    color:black ;
+}
+
+nav.phone {
+    width: 100%;
+}
+
+.nav-phone {
+    padding: 0 10px;
+}
+
+.buscador {
+    width: 95%;
+}
+
+.input {
+    width: 115px;
+}
+
+.menu {
+    border: none;
+}
+
+/*FOOTER*/
+
+.integrantes {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+.social-links {
+    color: grey;
+}
+
+.formato .footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/*VALEN*/
+/*MAIN*/
+.titulos {
+    color: white;
+    text-align: center;
+}
+
+.contenedor-items {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+}
+
+li {
+    padding: 0 1%;
+}
+
+/*NOUR*/
+.h1detalles {
+    color: white;
+    text-align: center;
+}
+
+.imgdetalles{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.detallediv {
+    display: flex;
+}
+
+.hdetalles {
+    color: white;
+}
+.noursection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.generosclase{
+    background-color: rgb(113, 36, 127);
+    text-align: center;
+    width: 160px;
+    height:50px;
+    margin-bottom: 10px;
+    border-radius: 7%;
+    
+}
+.noursection a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+.h1generos{
+    color: white;
+    margin-left: 40px;
+}
+.uldetallegenero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.imgh{
+    width: 150px;
+    height: 100%;
+    padding-top: 5%;
+    
+}
+.h1dgenero{
+    color: white;
+    margin-left: 35px;
+}
+.h2dgenero{
+    color: white;
+    margin-left: 35px;
+    text-decoration: underline;
+}
+
+/*FAVORITOS*/
+.contenedor-favoritos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+.titulo-fav {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+li.items-fav {
+    padding: 0 5%;
+    
+}
+
+img.imghome {
+    width: 100%;
+}
+
+/* EMILIA */
+/* resultados */
+
+#resultado h1, #resultado h2 {
+    color: white;
+    margin-left: 35px;
+}
+
+.resultados{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resultados li{
+    width: 18%;
+    margin-bottom: 50px;
+}
+
+.resultados li img{
+    width: 100%;
+}
+
+
+
+@media (min-width:720px) {
+    nav.computer {
+        display: block;
+        width: 100%;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    /*header*/
+    .navegador a:hover {
+        color: black;
+    }
+
+    .navegador {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 18px;
+        font-weight: bolder;
+        max-height: 80px;
+    }
+
+    .comp-nav {
+        padding: 0 10px;
+        width: 10%;
+        padding-top: 20px;
+        max-height: 10%;
+    }
+
+    #logo {
+        width: 70%;
+    }
+
+    .buscador {
+        padding-top: 20px;
+        width: 25%;
+    }
+
+    #alinear-foto {
+        padding-top: 5px;
+    }
+    .generosclase{
+        width: 320px;
+        height: 100px;
+        font-size: 25px;
+    }
+    .imgh{
+        width: 280px;
+    }
+
+}

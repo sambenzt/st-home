@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de Series</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body class="contenedor-ppal">
+    <header class="encabezado">
+        <nav class="computer">
+            <div>
+                <ul class="navegador">
+                    <li class="comp-nav" id="alinear-foto">
+                        <a href="home.html">
+                            <img src="logo/logo.jpeg" alt="Logo StreamTime"  class="logo"  id="logo">
+                        </a>
+                    </li>
+                    <li class="comp-nav">
+                        <a href="home.html">INICIO</a>
+                    </li>
+                    <li class="comp-nav">
+                        <a href="generos.html">GENEROS</a>
+                    </li>
+                    <li class="comp-nav">
+                        <a href="detalle-series.html">SERIES</a>
+                    </li>
+                    <li class="comp-nav">
+                        <a href="detalle-peliculas.html">PELICULAS</a>
+                    </li>
+                    <li class="comp-nav">
+                        <a href="fav.html">TUS FAVORITOS</a>
+                    </li>
+                    <form class="buscador" action="resultados.html" method="GET"><i class="fas fa-search"></i>
+                        <input type="buscador" name="buscador" placeholder="BUSCAR" value="">
+                    </form>
+                </ul>
+            </div>
+        </nav>
+        <nav class="phone">          
+                <div>
+                     <ul class="phone-header">
+                            <li><a href="home.html" class="nav-phone">Inicio</a></li>
+                            <li><a href="fav.html" class="nav-phone">Mis Favoritos</a></li>
+                            <li><a href="generos.html" class="nav-phone">Generos</a></li>
+                            <li><a href="detalle-series.html" class="nav-phone">Series</a></li>
+                            <li><a href="detalle-peliculas.html" class="nav-phone">Peliculas</a></li>
+                    </ul>           
+                </div>
+            <form class="input" action="resultados.html" method="GET">
+                <input class="buscador" type="buscador" name="buscador" placeholder="BUSCAR" value="">
+            </form>
+        </nav>
+    </header> 
+    <div class="detallesdiv">
+        <h1 class="h1detalles">La Casa de Papel</h1>
+        <img class="imgdetalles" src="./img-series/casa de papel.jpg" alt="">
+        <br>
+        <div class="detallediv">
+            <ul class="hdetalles">
+                <li>Sinopsis: Un enigmático personaje llamado el Profesor planea algo grande: llevar a cabo el mayor atraco de la historia. Para ello recluta una banda de ocho personas que reúnen un único requisito, ninguno tiene nada que perder. Cinco meses de reclusión memorizando cada paso, cada detalle, cada probabilidad… y por fin, once días de encierro en la Fábrica Nacional de Moneda, rodeados de cuerpos de policía y con decenas de rehenes en su poder para saber si su apuesta suicida será todo o nada.</li>
+                <li>Año: 2017</li>
+                <li><a href="./detalle-genero.html">Generos:</a>Drama, Crimen </li>
+                <li>Temporadas: 5 </li>
+                <li><a class="agregarfav" href="./fav.html">Agregar a mis favoritos</a></li>
+            </ul>
+        </div>
+    </div>  
+    <footer class="formato">
+        <hr class="uk-divider-icon"> 
+        </hr>
+       
+        <div class="social-links">
+             
+    
+        </div>
+        <h3 class="integrantes">
+            Emilia Tarascio, Nour Awada y Valentina Douce
+        </h3>
+    </footer>
+</body>
+</html>
